@@ -7,10 +7,10 @@ do
     read a b
     for (( i = $a ; i <= $b ; i = i+1 ))
     do
-	$c = $(( i%2 ))
+	c = $(( i%2 ))
         if [ $c -eq 0 ]
         then
-		   $count =`expr $count + 1`
+		   count =`expr $count + 1`
         
 	else
 	   count = 0
