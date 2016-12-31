@@ -19,7 +19,7 @@ then
 fi
 
 
-/*Compile using *chmod 755 <filename>.sh*
-  Run *./<filename>.sh*
+/*Compile using chmod 755 <filename>.sh
+  Run ./<filename>.sh
   
   */
